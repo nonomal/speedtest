@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-bench_v="v1.8.7"
-bench_d="2026-02-02"
+bench_v="v1.8.8"
+bench_d="2026-09-12"
 about() {
     echo ""
     echo " ========================================================= "
@@ -1748,7 +1748,7 @@ bench_all(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest;
@@ -1767,7 +1767,7 @@ usa_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_usa;
@@ -1786,7 +1786,7 @@ in_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_in;
@@ -1805,7 +1805,7 @@ in_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_europe;
@@ -1824,7 +1824,7 @@ asia_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_asia;
@@ -1843,7 +1843,7 @@ china_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_china;
@@ -1862,7 +1862,7 @@ na_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_na;
@@ -1881,7 +1881,7 @@ sa_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_sa;
@@ -1900,7 +1900,7 @@ au_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_au;
@@ -1919,7 +1919,7 @@ ukraine_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_ukraine;
@@ -1937,7 +1937,7 @@ lviv_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_lviv;
@@ -1955,7 +1955,7 @@ meast_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_meast;
@@ -1973,7 +1973,7 @@ casia_bench(){
     print_system_info;
     ip_info4;
     next;
-    geekbench;
+    #geekbench;
     iotest;
     write_io;
     print_speedtest_central_asia;
